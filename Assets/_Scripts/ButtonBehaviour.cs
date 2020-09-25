@@ -40,4 +40,16 @@ public class ButtonBehaviour : MonoBehaviour
         Debug.Log("Restart Button Pressed");
         SceneManager.LoadScene("GameScene");
     }
+
+    public void OnHowToPlayButtonPressed()
+    {
+        Debug.Log("How to play Button Pressed");
+        SceneManager.LoadScene("HowToPlayScene");
+    }
+
+    public void OnExitButtonPressed()
+    {
+        Debug.Log("Exit Button Pressed");
+        Application.Quit();
+    }
 }
