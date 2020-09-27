@@ -182,8 +182,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Return to Main Menu
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: c69e63a2649d8b040a16e8d99d18bc1a, type: 2}
+  m_sharedMaterial: {fileID: -6443514862623007638, guid: c69e63a2649d8b040a16e8d99d18bc1a, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -465,8 +465,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: How To Play Scene
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: c69e63a2649d8b040a16e8d99d18bc1a, type: 2}
+  m_sharedMaterial: {fileID: -6443514862623007638, guid: c69e63a2649d8b040a16e8d99d18bc1a, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -577,8 +577,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 195}
-  m_SizeDelta: {x: 800, y: 350}
+  m_AnchoredPosition: {x: 37.7, y: 163.6}
+  m_SizeDelta: {x: 875.4774, y: 412.89777}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1792484944
 MonoBehaviour:
