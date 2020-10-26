@@ -19,7 +19,6 @@ public class BuildManager : MonoBehaviour
 
     }
 
-    public int Cost = 0;
     public GameObject GreenTurretPrefab;
     public GameObject RedTurretPrefab;
 
