@@ -1,18 +1,28 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class Shop : MonoBehaviour
 {
-    public void PurchaseGreenTurret ()
+    public TurretBlueprint GreenTurret;
+    public TurretBlueprint RedTurret;
+
+    //Getting access to build manager
+    BuildManager buildManager;
+    private void Start()
     {
-        Debug.Log("Green Turret Purchased");
+        buildManager = BuildManager.instance;
+    }
+    //Setting the turret to build to green turret
+    public void SelectedGreenTurret ()
+    {
+        Debug.Log("Green Turret Selected");
+        buildManager.SelectTurretToBuild(GreenTurret);
     }
 
-    public void PurchaseRedTurret()
+    public void SelectedRedTurret()
     {
-        Debug.Log("Red Turret Purchased");
+        //Setting the turret to build to red turret
+
+        Debug.Log("Red Turret Selected");
+        buildManager.SelectTurretToBuild(RedTurret);
     }
-
-
 }
